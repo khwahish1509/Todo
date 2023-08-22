@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Theme.OpenToday.Toolbar.Section.Root.Items.ItemRow">
+
+    <Button
+        android:id="@+id/create"
+        android:text="+"
+        tools:ignore="HardcodedText"
+        style="@style/Theme.OpenToday.Toolbar.Section.Button.Items.ItemRow.AddAndEdit" />
+
+    <Button
+        android:id="@+id/add"
+        android:text="!"
+        android:layout_toEndOf="@id/create"
+        tools:ignore="HardcodedText"
+        style="@style/Theme.OpenToday.Toolbar.Section.Button.Items.ItemRow.AddOnly" />
+
+    <Button
+        android:id="@+id/description"
+        android:text="\?"
+        android:layout_toEndOf="@id/add"
+        tools:ignore="HardcodedText"
+        style="@style/Theme.OpenToday.Toolbar.Section.Button.Items.ItemRow.Description" />
+
+    <TextView
+        android:id="@+id/name"
+        tools:text="Checkbox"
+        android:layout_toEndOf="@id/description"
+        android:layout_alignBaseline="@id/description"
+        style="@style/Theme.OpenToday.Toolbar.Section.Text.Items.ItemRow" />
+
+</RelativeLayout>

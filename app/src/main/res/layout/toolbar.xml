@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        style="@style/Theme.OpenToday.Toolbar.Root">
+
+        <Button
+            android:id="@+id/toolbar_file"
+            android:text="@string/toolbar_file"
+            style="@style/Theme.OpenToday.Toolbar.Button" />
+
+        <Button
+            android:id="@+id/toolbar_items"
+            android:text="@string/toolbar_items"
+            style="@style/Theme.OpenToday.Toolbar.Button" />
+
+        <Button
+            android:id="@+id/toolbar_selection"
+            android:text="@string/toolbar_selection"
+            style="@style/Theme.OpenToday.Toolbar.Button" />
+
+        <Button
+            android:id="@+id/toolbar_tabs"
+            android:text="@string/toolbar_tabs"
+            style="@style/Theme.OpenToday.Toolbar.Button" />
+
+        <Button
+            android:id="@+id/toolbar_opentoday"
+            android:text="@string/toolbar_opentoday"
+            style="@style/Theme.OpenToday.Toolbar.Button" />
+
+        <Button
+            android:id="@+id/toolbar_debug"
+            android:text="@string/toolbar_debug"
+            style="@style/Theme.OpenToday.Toolbar.Button" />
+    </LinearLayout>
+</HorizontalScrollView>

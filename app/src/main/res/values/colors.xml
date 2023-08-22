@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Main Activity -->
+    <attr format="color" type="color" name="androidToolbar_background" />
+    <attr format="color" type="color" name="main_currentDate_color" />
+    <attr format="color" type="color" name="disableBatteryOptimization_backgroundColor" />
+    <attr format="color" type="color" name="disableBatteryOptimization_textColor" />
+
+    <attr format="color" type="color" name="updateAvailable_backgroundColor" />
+    <attr format="color" type="color" name="updateAvailable_textColor" />
+
+    <!-- Items -->
+    <attr format="color" type="color" name="item_backgroundColor" />
+    <attr format="color" type="color" name="item_textColor" />
+    <attr format="color" type="color" name="item_text_background_color" />
+    <attr format="color" type="color" name="item_text_textColor" />
+    <attr format="color" type="color" name="item_checkbox_backgroundColor" />
+    <attr format="color" type="color" name="item_checkbox_textColor" />
+    <attr format="color" type="color" name="item_checkbox_day_repeatable_backgroundColor" />
+    <attr format="color" type="color" name="item_checkbox_day_repeatable_textColor" />
+    <attr format="color" type="color" name="item_cycleList_backgroundColor" />
+    <attr format="color" type="color" name="item_cycleList_textColor" />
+    <attr format="color" type="color" name="item_counter_backgroundColor" />
+    <attr format="color" type="color" name="item_counter_textColor" />
+    <attr format="color" type="color" name="item_group_backgroundColor" />
+    <attr format="color" type="color" name="item_group_textColor" />
+    <attr format="color" type="color" name="item_filterGroup_backgroundColor" />
+    <attr format="color" type="color" name="item_filterGroup_textColor" />
+
+    <attr format="color" type="color" name="item_selectionForegroundColor" />
+    <attr format="color" type="color" name="toolbar_background" />
+
+    <attr format="color" type="color" name="itemFilterState_true" />
+    <attr format="color" type="color" name="itemFilterState_false" />
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/edit"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/menuItem_openEditDialog" />
+
+    <item
+        android:id="@+id/textItem_editText"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/item_text_editText" />
+
+    <item
+        android:id="@+id/selected"
+        android:checkable="true"
+        android:title="@string/menuItem_selected" />
+
+    <item
+        android:id="@+id/minimize"
+        android:checkable="true"
+        android:title="@string/menuItem_minimize" />
+
+    <item
+        android:id="@+id/copy"
+        android:title="@string/menuItem_copy" />
+
+    <item
+        android:id="@+id/transform"
+        android:title="@string/menuItem_transform" />
+
+    <item
+        android:id="@+id/delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/menuItem_delete" />
+
+
+    <item android:checkable="true" android:id="@+id/textItem_clickableUrls" android:title="@string/item_text_clickableUrls" />
+</menu>

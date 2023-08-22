@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Theme.OpenToday.Toolbar.Section.Root.Selection">
+
+    <Button
+        android:id="@+id/exportSelected"
+        android:text="@string/toolbar_more_selection_export"
+        style="@style/Theme.OpenToday.Toolbar.Section.Button.Selection.ExportSelected" />
+
+    <Button
+        android:id="@+id/deselect_all"
+        android:text="@string/toolbar_more_selection_deselectAll"
+        style="@style/Theme.OpenToday.Toolbar.Section.Button.Selection.DeselectAll" />
+
+    <Button
+        android:id="@+id/delete"
+        android:text="@string/toolbar_more_selection_delete"
+        style="@style/Theme.OpenToday.Toolbar.Section.Button.Selection.Delete" />
+
+
+    <Button
+        android:id="@+id/move_selected_here"
+        android:text="@string/toolbar_more_selection_moveSelectedHere"
+        style="@style/Theme.OpenToday.Toolbar.Section.Button.Selection.MoveHere" />
+
+    <Button
+        android:id="@+id/copy_selected_here"
+        android:text="@string/toolbar_more_selection_copySelectedHere"
+        style="@style/Theme.OpenToday.Toolbar.Section.Button.Selection.CopyHere" />
+
+
+    <Button
+        android:id="@+id/edit_selected"
+        android:text="@string/toolbar_more_selection_editSelected"
+        style="@style/Theme.OpenToday.Toolbar.Section.Button.Selection.Edit" />
+
+    <TextView
+        android:id="@+id/selectedInfo"
+        android:text="@string/toolbar_more_selection_info"
+        style="@style/Theme.OpenToday.Toolbar.Section.Text.Selection.Info" />
+
+</LinearLayout>

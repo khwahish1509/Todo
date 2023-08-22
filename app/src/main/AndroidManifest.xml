@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <application
+        android:name="com.fazziclay.opentoday.app.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/abc_launcherName"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.OpenToday">
+
+        <!-- Activities -->
+        <activity
+            android:name="com.fazziclay.opentoday.gui.activity.LauncherActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fazziclay.opentoday.gui.activity.OpenSourceLicensesActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fazziclay.opentoday.gui.activity.OpenSourceLicenseActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.fazziclay.opentoday.gui.activity.MainActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="false" />
+        <activity
+            android:name="com.fazziclay.opentoday.debug.TestItemViewGenerator"
+            android:exported="false" />
+        <activity
+            android:name="com.fazziclay.opentoday.gui.activity.SetupActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.fazziclay.opentoday.debug.TestItemsStorageDrawer"
+            android:exported="false" />
+        <activity
+            android:name="com.fazziclay.opentoday.debug.TestActivityFragment"
+            android:exported="false" />
+        <activity
+            android:name="com.fazziclay.opentoday.debug.TestItemManager"
+            android:exported="false" />
+        <activity
+            android:name="com.fazziclay.opentoday.gui.activity.CrashReportActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> <!-- Services -->
+        <!-- Receivers -->
+        <receiver
+            android:name="com.fazziclay.opentoday.app.items.tick.ItemsTickReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.fazziclay.opentoday.app.items.QuickNoteReceiver"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>
